@@ -7,18 +7,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* Si la pantalla es de 501px o mas */
-@media screen and (min-width: 501px) {
+/* Si la pantalla es de 401px o mas */
+@media screen and (min-width: 401px) {
 
     #menu ul li a{
         font-size: 0.7em;
     }
 }
 
-/* Si la pantalla es de 500px o menos */
-@media screen and (max-width: 500px) {
+/* Si la pantalla es de 400px o menos */
+@media screen and (max-width: 400px) {
     #menu ul li a{
-        font-size: 0.6em;
+        font-size: 0.5em;
     }
 
     .info img{
