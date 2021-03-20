@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100%;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    font-size: 10vw;
+    margin-top: 1vh;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+}
+
+#formulario{
+
+    width: 100%;
+    font-size: 80%;
+    margin: 15vh 1vw 2vh 1vw;
+    padding: 15vh 1vw 2vh 5vw;
+}
+
+#formulario .p1{
+    color: white;
+}
+
+#nombre, #contrasena{
+    width: 100%;
+}
+
+#filtrado{
+    float: center;
+    margin: 10vh 5vw auto 10vw;
+    padding: auto 2vw 2vh 5vw;
+    width: 80%;
+}

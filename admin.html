@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt>
+    <title>EDWARD GARCIA</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+
+    <!--First section-->
+    <div style="background-image: url('img/web.jpg'); background-size: cover; height:700px; padding-top:80px;">
+
+        <h3>Seleccione el asunto por el cual desea filtrar su búsqueda</h3>
+
+        <div id="formulario1">
+            <form action="resultado.php" method="POST">
+                <select id="filtrado" name="filtrado">
+                    <option selected value="0"> Filtrar por:</option>
+                        <optgroup label="Desarrollo"> 
+                        <option value="web">Desarrollo web</option> 
+                        <option value="movil">Desarrollo móvil</option> 
+                    </optgroup> 
+                    <optgroup label="Diseño de Videojuegos"> 
+                        <option value="unity">Unity 3D</option> 
+                        <option value="stencyl">Stencyl</option> 
+                        <option value="godot">Godot Engine</option> 
+                    </optgroup> 
+                </select>
+                <input type="submit" id="buscar" name="Buscar" value="Buscar">
+            </form>        
+        </div>
+    </div>
+
+    
+</body>
